@@ -13,17 +13,18 @@ This is Restaurant Web Site using angularJS-full-stack.
  
   Insert verutual host in C:\xampp\apache\conf\extra\httpd-vhosts.conf
   insert fallow code.
-  
-  ---------------------------------------------------------------------------
+
  #### Listen 8082
- #### <VirtualHost *:8082>
-  ####   DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
-  ####   ServerName dev.middleweek.co.uk
-  ####   <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
-  ####       Allow from all
-  ####      Require all granted </Directory> </VirtualHost>
+ <VirtualHost *:8082>
+  DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
+    ServerName dev.middleweek.co.uk
+   <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
+        Allow from all
+        Require all granted 
+   </Directory> 
+  </VirtualHost>
  #### 
----------------------------------------------------------------------------
+
 %  DocumentRoot : downloaded project falder path
 
 ## 3).Find Web site
