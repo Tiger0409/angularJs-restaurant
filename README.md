@@ -7,6 +7,7 @@ This is Restaurant Web Site using angularJS-full-stack.
 ## 1).Install XAMPP
 
  install XAMPP.
+ 
 ## 2).set up project.
 
  
@@ -14,21 +15,21 @@ This is Restaurant Web Site using angularJS-full-stack.
   insert fallow code.
   
   ---------------------------------------------------------------------------
-  Listen 8082
-<VirtualHost *:8082>
-    DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
-    ServerName dev.middleweek.co.uk
-    <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
-        Allow from all
-        Require all granted
-    </Directory>
-</VirtualHost>
+ #### Listen 8082
+ #### <VirtualHost *:8082>
+  ####   DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
+  ####   ServerName dev.middleweek.co.uk
+  ####   <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
+  ####       Allow from all
+   ####      Require all granted
+   ####  </Directory>
+ #### </VirtualHost>
 ---------------------------------------------------------------------------
 %  DocumentRoot : downloaded project falder path
 
-## 3).Finde Web site
+## 3).Find Web site
 
-localhost: 8082
+ localhost: 8082
 
 ## Best Regards.
 If you can use and change this project, let me know.
