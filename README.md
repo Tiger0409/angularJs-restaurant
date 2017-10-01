@@ -15,15 +15,15 @@ This is Restaurant Web Site using angularJS-full-stack.
   insert fallow code.
 
  #### Listen 8082
- <VirtualHost *:8082>
-  DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
-    ServerName dev.middleweek.co.uk
-   <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
-        Allow from all
-        Require all granted 
-   </Directory> 
-  </VirtualHost>
- #### 
+  #### <VirtualHost *:8082>
+  ####  DocumentRoot "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public"
+   ####   ServerName dev.middleweek.co.uk
+  ####   <Directory "D:\team\samples\AngularJS\RestaurantSite\angularJS-restaurant-website-master\public">
+  ####        Allow from all
+  ####        Require all granted 
+  ####   </Directory> 
+ ####  </VirtualHost>
+
 
 %  DocumentRoot : downloaded project falder path
 
